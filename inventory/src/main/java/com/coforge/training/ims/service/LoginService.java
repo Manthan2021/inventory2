@@ -5,6 +5,7 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.coforge.training.ims.exception.ResourceNotFoundException;
 import com.coforge.training.ims.model.Dealer;
 import com.coforge.training.ims.repository.DealerRepository;
 import com.coforge.training.ims.repository.UserRepository;
@@ -36,7 +37,7 @@ public class LoginService {
 		
 	}
 	
-	public Dealer findByEmail(String email) {
+	public Dealer findByEmail(String email)  {
 		
 	return uRepo.findByEmail(email);	
 	}

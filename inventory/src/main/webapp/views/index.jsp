@@ -13,6 +13,9 @@
 <div align="center">
 <a href="register">Register</a><br><br>
 <a href="login">Login</a>
+<br>
+<br>
+<a href="bitpay">Bit  Coin Rates</a>
 </div>
 <hr>
 </body>

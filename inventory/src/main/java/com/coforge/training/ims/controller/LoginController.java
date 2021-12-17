@@ -39,6 +39,7 @@ public class LoginController {
     }
 	
 	@RequestMapping("/register")
+	
 	public String viewRegisterPage(Model model) {
 		Dealer dealer=new Dealer();
 	    model.addAttribute(dealer);
